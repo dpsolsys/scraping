@@ -1,0 +1,2935 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="lt-ie9 lt-ie10 juggernaut notresponsive grid_940"> <![endif]-->
+<!--[if IE 9]> <html class="lt-ie10 juggernaut responsive grid_940"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="juggernaut responsive grid_940"> <!--<![endif]-->
+
+<head>
+  <!-- Google Search Console config -->
+  <meta name="google-site-verification" content="f1YswNYUVb2d0dy07Y7soM6FzZ3rQ4xsfVV-11yCcQc" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+  <meta name="theme-color" content="#f0141e">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- Icons and favicons -->
+  <link rel="icon" href="i/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="i/images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="i/images/favicon/apple-touch-icon-60.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="i/images/favicon/apple-touch-icon-76.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="i/images/favicon/apple-touch-icon-120.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="i/images/favicon/apple-touch-icon-152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="i/images/favicon/apple-touch-icon-180.png" />
+
+<script type="text/javascript">
+// <![CDATA[
+  var URLs = {
+    'login':  'https://marvel.com/signin?referer=http%3A%2F%2Fmarvel.com%2Fcomics',
+    'signup': 'https://marvel.com/register?referer=http%3A%2F%2Fmarvel.com%2Fcomics',
+    'comicReader': 'http://reader.marvel.com/#/issue/',
+    'rpxWidgetUrl': 'http://widget-cdn.rpxnow.com/js/lib/forge.marvel.com/widget.js',
+    'rpxWidgetUrlSecure': 'https://rpxnow.com/js/lib/forge.marvel.com/widget.js',
+    'loyaltyUrl': 'https://loyalty-api.marvel.com',
+    'sitenames': {
+        marvel : 'marvel.com'
+    }
+  };
+
+ window.marvelJanrainTokenUrl = "https://marvel.com/register/social";
+ window.marvelJanrainAppId = "gofcnefdmbcgfcjpgide";
+ window.marvelJanrainAppUrl = "https://forge.marvel.com";
+// ]]>
+</script>
+
+        <meta name="twitter:site" content="@Marvel" />
+        <meta property="og:site_name" content="Marvel.com" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:creator" content="@Marvel" />
+        <meta name="twitter:url" content="http://marvel.com/comics" />
+        <meta property="og:url" content="http://marvel.com/comics" />
+        <meta property="fb:app_id" content="193166954153103" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="content-type" content="text/html;charset=utf-8" />
+        <meta name="robots" content="index,follow" />
+        <meta name="description" content="Start at the Marvel.com comics landing page to map out your adventure into the famous Marvel universe � whether you prefer print or digital, we have it here." />
+        <meta name="twitter:description" content="Start at the Marvel.com comics landing page to map out your adventure into the famous Marvel universe � whether you prefer print or digital, we have it here." />
+        <meta property="og:description" content="Start at the Marvel.com comics landing page to map out your adventure into the famous Marvel universe � whether you prefer print or digital, we have it here." />
+        <meta name="keywords" content="comic books, digital, print, news, characters" />
+        <link rel="stylesheet" type="text/css" media="all" href="https://i.annihil.us/u/prod/marvel/s/css/f4857a56bc263d768fb1fd90b020adb1.css" />
+        <!--[if IE 8]><link rel="stylesheet" type="text/css" media="all" href="https://i.annihil.us/u/prod/marvel/s/css/4d387a1fab2e5d257acc5260d12d2ef0.css" /><![endif]-->
+        <link rel="stylesheet" type="text/css" media="all" href="https://i.annihil.us/u/prod/marvel/s/css/befeb6fd40d2e0de285253639ceffd6d.css" />
+        <!--[if IE 8]><link rel="stylesheet" type="text/css" media="all" href="https://i.annihil.us/u/prod/marvel/s/css/f734d4e25c1a29de786e54eedb676015.css" /><![endif]-->
+        
+        <script type="text/javascript" src="https://i.annihil.us/u/prod/marvel/s/js/fcabdd61b0dae3cba1e6142eda3ab1ef.js"></script>
+        <!--[if IE 8]><script type="text/javascript" src="https://i.annihil.us/u/prod/marvel/s/js/a34a58f2cb251dcc855a41c95c77b81e.js"></script><![endif]-->
+        <!--[if lte IE 9]><script type="text/javascript" src="https://i.annihil.us/u/prod/marvel/s/js/a4e10de2ebb8fc01929c19913e9636e9.js"></script><![endif]-->
+        <script type="text/javascript" src="https://i.annihil.us/u/prod/marvel/s/js/233b4595ab39738298aaf9a1f0f51481.js"></script>
+        
+        <title>Comics | Marvel.com</title>
+        <link href="http://marvel.com/comics" rel="canonical" />
+        
+        <script type="text/javascript">
+        (function() {
+           function async_load(){
+        	 	files = new Array();
+        
+                    	for(i in files) {
+        					        s = document.createElement('script');
+        					        s.type = files[i].type;
+        					        s.async = files[i].async;
+        					        s.src = files[i].src;
+        					        var x = document.getElementsByTagName('script')[0];
+        					        x.parentNode.insertBefore(s, x);
+                		}
+        		}
+        					    if (window.attachEvent) {
+        					        window.attachEvent('onload', async_load);
+        					    } else {
+        					        window.addEventListener('load', async_load, false);
+        					    }
+        					})();
+        </script>
+        
+        <script type="text/javascript">// <![CDATA[
+         var MARVEL_USER ={"islogged":"0"}
+        	// ]]></script>
+        <script type="text/javascript">
+        var strTrackingCode = 'UA-273913-20';
+        var strUserSegment = "nonmember";
+        var strPageId = "/comics";
+        
+        function callAnalytics(trackingCode, userSegment, trackPage, transactionAdd, transactionItem) {
+            ga('create', trackingCode, 'auto');
+            ga('set', 'dimension1', userSegment);
+            ga('send', 'pageview', trackPage);
+        
+            if(transactionAdd != null){
+                if (transactionAdd.length > 0 && transactionItem.length > 0) {
+                    ga('require', 'ecommerce', 'ecommerce.js');
+                    ga('ecommerce:addTransaction');
+                    ga('ecommerce:addItem');
+                }
+            }
+        
+            return false;
+        }
+        
+        
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        (function() {
+            callAnalytics(strTrackingCode, strUserSegment, strPageId, null, null);
+        })();
+        </script>
+        
+        <!-- Facebook retargeting pixel starts here -->
+        
+        <script type="text/javascript">
+        (function(){
+          window._fbds = window._fbds || {};
+          _fbds.pixelId = 802011856479832;
+          var fbds = document.createElement('script');
+          fbds.async = true;
+          fbds.src = '//connect.facebook.net/en_US/fbds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(fbds, s);
+        })();
+        window._fbq = window._fbq || [];
+        window._fbq.push(["track", "PixelInitialized", {}]);
+        </script>
+        <noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=802011856479832&amp;ev=NoScript" /></noscript>
+        
+        <!-- start Tealium tag here
+          page_name : "comics",
+          site_section : "comics",
+          channel : "comics",
+          rsid : "marveldotcomv3",
+          referrer : document.referrer,
+          url :  window.location.href
+          promoCode : "",
+          selectedProductCode : ""
+          activity_params_json :  ,
+          user_id : "guest"
+          page_type : ""
+          confirmation_code :  '',
+          product_code :  '',
+          product_price :  ''
+          attribution :  'direct'
+          blogpostTagsString :  ''
+        -->
+        
+        
+        <script type="text/javascript">
+        var utag_data = {
+          page_name : "comics",
+          site_section : "comics",
+          channel : "comics",
+          rsid : "marveldotcomv3",
+          user_id :  "guest",
+          mu_subscriber :  "No",
+          logged_in :  "No",
+          is_mobile :  "desktop",
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+              last_promo_page :  "direct",
+          
+          
+              campaign_id :  "direct",
+          
+              attribution :  "direct",
+          
+              app_title :  "Marvel.com",
+          
+              set_referrer : document.referrer,
+          
+          tag_type :  "view"
+        };
+        </script>
+        
+        <!-- Loading script asynchronously -->
+        <script type="text/javascript">
+        (function(a,b,c,d){
+          a='//tags.tiqcdn.com/utag/disney/marvel/prod/utag.js';
+          b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.a
+          sync=true;
+          a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+        })();
+        </script>
+        
+        
+        <script type="text/javascript">
+        /*function getTealiumVariables() {
+            return {
+                          campaign_id :  "direct",
+                
+                                  attribution :  "direct",
+                                  last_promo_page :  "direct",
+                        user_id : "guest",
+                site_section : "comics",
+                channel : "comics",
+                rsid : "marveldotcomv3"
+            };
+        }*/
+        </script>
+        
+        
+
+<link href="https://plus.google.com/108523337373444601877/posts" rel="publisher" />
+<meta name="msapplication-TileImage" content="/i/images/logo.png" />
+
+<!--- GPT JavaScript Library -->
+<script type="text/javascript">
+ (function() {
+   var useSSL = 'https:' == document.location.protocol;
+   var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+   document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+ })();
+</script>
+
+</head>
+    <body id="comics-index" class="comics">
+
+  
+
+
+
+        <script id="singleRowItem" type="text/mustache"><div class="row-item comic-item">
+        
+        	<div class="row-item-image">
+        		{{! Display image. Helper used by backend, through thumbnail var, Front end uses image var }}
+        		<a href="{{#helpers.formatUrlHTTP.formatUrlHTTP(url)}}   {{{helpers.formatUrlHTTP.formatUrlHTTP(url)}}} {{/helpers.formatUrlHTTP.formatUrlHTTP(url)}}  {{^helpers.formatUrlHTTP.formatUrlHTTP(url)}} {{url}} {{/helpers.formatUrlHTTP.formatUrlHTTP(url)}}" class="row-item-image-url"><!--
+        		 -->{{#digitalComics}} <i class="badge badge-mu"></i>{{/digitalComics}}{{#mdcuOnly}}<i class="badge badge-mu"></i>{{/mdcuOnly}}<!--
+        		  --><div class="row-item-image-border"></div><!--
+        		  --><img src="{{#thumbnail}}{{{helpers.imageUrl.imageUrl(thumbnail,module_img_variant)}}}{{/thumbnail}}{{^thumbnail}}{{#image}}{{image}}{{/image}}{{/thumbnail}}" alt="{{#hasSeriesDetailPage}}{{seriesTitle}} #{{number}} {{#variantDescription}} ({{variantDescription}}){{/variantDescription}}{{/hasSeriesDetailPage}}{{^hasSeriesDetailPage}}{{title}}{{/hasSeriesDetailPage}}" title="{{#hasSeriesDetailPage}}{{seriesTitle}} #{{number}} {{#variantDescription}} ({{variantDescription}}){{/variantDescription}}{{/hasSeriesDetailPage}}{{^hasSeriesDetailPage}}{{title}}{{/hasSeriesDetailPage}}" /><!--
+        	 --></a>
+            </div>
+        
+            <div class="row-item-text">
+        
+                {{#digitalComics}}
+                <i class="icon-search"></i>
+                <a href="{{getReaderUrl}}" target="_blank" data-digitalid="{{digitalComics.getFirst.id}}" data-mobileRedirect="{{#deviceFeatures.mobile_non_ipad}}redirect{{/deviceFeatures.mobile_non_ipad}}" class="see-inside">
+        					{{#readNowText}}
+                                {{readNowText}}
+                            {{/readNowText}}
+                            {{^readNowText}}
+                                Read Now
+                            {{/readNowText}}
+                </a>
+                {{/digitalComics}}
+        
+                {{#mdcuOnly}}
+                <i class="icon-search"></i>
+                <a href="{{getReaderUrl}}" target="_blank" data-digitalid="{{digitalComics.getFirst.id}}" class="see-inside" data-mobileRedirect="{{#deviceFeatures.mobile_non_ipad}}redirect{{/deviceFeatures.mobile_non_ipad}}">
+                             {{#readNowText}}
+                                {{readNowText}}
+                             {{/readNowText}}
+                             {{^readNowText}}
+                                Read Now
+                             {{/readNowText}}
+                </a>
+                {{/mdcuOnly}}
+        
+        
+                <h5><a class="meta-title" href="{{#helpers.formatUrlHTTP.formatUrlHTTP(url)}}   {{{helpers.formatUrlHTTP.formatUrlHTTP(url)}}} {{/helpers.formatUrlHTTP.formatUrlHTTP(url)}}  {{^helpers.formatUrlHTTP.formatUrlHTTP(url)}} {{url}} {{/helpers.formatUrlHTTP.formatUrlHTTP(url)}}">
+                    {{^frontend}}
+        	            {{#hasSeriesDetailPage}}
+        	                {{{helpers.truncateSimple.truncateSimple(seriesDetailPageTitle,truncation.title)}}}
+        	            {{/hasSeriesDetailPage}}
+        	            {{^hasSeriesDetailPage}}
+        	               {{{#helpers.truncateSimple.truncateSimple(title,truncation.title)}}}
+        	            {{/hasSeriesDetailPage}}
+        	        {{/frontend}}
+                    {{#frontend}}
+                    	{{{title}}}
+                    {{/frontend}}
+                </a></h5>
+                {{! Display creators list only issues and not for trade/collection }}
+                {{#hasSeriesDetailPage}}
+                    {{#creatorsListShort}}
+                        <p class="meta-creators">{{{helpers.truncateSimple.truncateLinkList(creatorsListShort)}}}</p>
+                    {{/creatorsListShort}}
+                    {{^creatorsListShort}}
+                        {{#sourceIssue}}
+                            {{#creatorsListShort}}
+                                <p class="meta-creators">{{{helpers.truncateSimple.truncateLinkList(creatorsListShort)}}}</p>
+                            {{/creatorsListShort}}
+                        {{/sourceIssue}}
+                    {{/creatorsListShort}}
+                {{/hasSeriesDetailPage}}
+            </div>
+        
+        </div>
+        </script><script id="comparePlans" type="text/mustache"><div id="compareMU" class="module moduColor_Light no-stripes">
+                    <div class="grid-container">
+                        <h1 class="page-header">Compare Marvel Unlimited Membership Plans</h1>
+                        <div id="table">
+                          <div class="row row-title">
+                            <span class="cell cell-desc"><b>Benefits</b></span>
+                            <span class="cell"></span>
+                            <span class="cell muBlue">Annual Plus</span>
+                            <span class="cell middle-cell">Annual</span>
+                            <span class="cell">Monthly</span>
+                        </div>
+                          <div class="row">
+                            <span class="cell cell-desc"><b>Instant Access to 13,000+ Marvel Comics</b> on iPad, iPhone, Android &amp; Web</span>
+                            <span class="cell icon-appaccess "></span>
+                            <span class="cell icon-checkmark muBlue"></span>
+                            <span class="cell icon-checkmark "></span>
+                            <span class="cell icon-checkmark "></span>
+                        </div>
+                        <div class="row">
+                            <span class="cell cell-desc"><b>Member-only deals</b> on Marvel comics &amp; merchandise</span>
+                            <span class="cell icon-pricetag "></span>
+                            <span class="cell icon-checkmark muBlue"></span>
+                            <span class="cell icon-checkmark "></span>
+                            <span class="cell icon-checkmark "></span>
+                        </div>
+                        <div class="row">
+                           <span class="cell cell-desc"><b>Plus Member Collectible Kit</b> with exclusive Hasbro Marvel Legends 6" figure, variant comic &amp; custom box </span>
+                           <span class="cell icon-welcomekit "></span>
+                           <span class="cell icon-checkmark muBlue"></span>
+                       </div>
+                        <div class="row">
+                           <span class="cell cell-desc"><b>Plus Members-Only</b> event access </span>
+                           <span class="cell icon-calendar"></span>
+                           <span class="cell icon-checkmark muBlue"></span>
+                       </div>
+                        <div class="row">
+                           <span class="cell cell-desc"><b>Early access to Marvel news</b> - get same access as news outlets! </span>
+                           <span class="cell icon-newstower"></span>
+                           <span class="cell icon-checkmark muBlue"></span>
+                       </div>
+                        <div class="row no-border">
+                           <span class="cell cell-desc"><b>15% off Marvel digital comics and collections</b> every day </span>
+                           <span class="cell icon-save15"></span>
+                           <span class="cell icon-checkmark muBlue"></span>
+                       </div>
+                       <div class="row">
+                           <span class="cell cell-desc"><b>10% off MarvelStore.com </b>every day </span>
+                           <span class="cell icon-save10"></span>
+                           <span class="cell icon-checkmark muBlue"></span>
+                       </div>
+                       <div class="row">
+                           <span class="cell cell-desc"><b>Personalized member card</b> and welcome letter </span>
+                           <span class="cell icon-membercard"></span>
+                           <span class="cell icon-checkmark muBlue"></span>
+                       </div>
+        
+                        <div class="row prices">
+                           <span class="cell cell-desc"><b>Price</b></span>
+                           <span class="cell"></span>
+                           <span class="cell muBlue">$99 Yearly</span>
+                           <span class="cell">$69 Yearly</span>
+                           <span class="cell">$9.99 Monthly</span>
+                       </div>
+                        <div class="row sign-up-btns">
+                           <span class="cell cell-desc"></span>
+                           <span class="cell"></span>
+                           <span class="cell"><a class="btn btn-light-blue" href="/checkout?code=DC-V01"><span>Sign Up</span></a></span>
+                           <span class="cell"><a class="btn btn-black" href="/checkout?code=DC-Y01"><span>Sign Up</span></a></span>
+                           <span class="cell"><a class="btn btn-black" href="/checkout?code=DC-M01"><span>Sign Up</span></a></span>
+                       </div>
+        
+                   </div>
+               </div></script><script>if(Juggernaut){
+            		Juggernaut.UI = Juggernaut.UI || {};
+            		$("script[type*=text][type*=mustache]").each(function(){
+            		   Juggernaut.UI.tpls[this.id] = this.innerHTML;
+            		});
+            	}</script>
+        <script type="text/javascript">var tplToJs = tplToJs || {};tplToJs.mustache = tplToJs.mustache || {};var jsTplEngine = tplToJs.mustache;jsTplEngine.videoInPop = null;</script>
+
+<header>
+                          
+      <div class="ad ad-header">                    <!--  Operative Tag starts here -->
+                    <script type='text/javascript'>
+                      function initGoogleTagAd( networkCode, size, sect, ct, targetDiv ) {
+                        googletag.defineSlot( networkCode, size, targetDiv )
+                          .addService(googletag.pubads())
+                          .setTargeting( "sect", sect )
+                          .setTargeting( "ct", ct )
+                          .setTargeting( "mtfInline", "true" );
+                        googletag.enableServices();
+                        googletag.display( targetDiv );
+                    
+                      }
+                    </script>
+                    <div class="advertisement">
+                      <div id='div-gpt-ad-comics-1003466449'>
+                      <script>
+                        initGoogleTagAd( '/10281695/Marvel.com/comics', [[728,90], [970,66], [970,250], [970,90]], 'comics', '', 'div-gpt-ad-comics-1003466449' );
+                      </script>
+                      </div>
+                    </div>
+                    
+                    <script type="text/javascript">
+                    <!-- Ugly hack to remove width and height from custom skins iframe -->
+                    $(document).ready(function() {
+                      setTimeout(function(){
+                        var adIframe = $('#home-skin-ad .advertisement iframe');
+                            adIframe.hide().removeAttr('width').removeAttr('height');
+                          $('#skin-ad .advertisement iframe').hide().removeAttr('width').removeAttr('height');
+                        },300);
+                    });
+                    </script>
+                    
+                    
+                    
+                    
+                    
+</div>
+
+  
+  
+<script type="text/javascript">
+var URLs = {
+  'login'              : 'https://marvel.com/signin?referer=http%3A%2F%2Fmarvel.com%2Fcomics',
+  'signup'             : 'https://marvel.com/register?referer=http%3A%2F%2Fmarvel.com%2Fcomics',
+  'rpxWidgetUrl'       : 'http://widget-cdn.rpxnow.com/js/lib/forge.marvel.com/widget.js',
+  'loyaltyUrl'         : 'https://loyalty-api.marvel.com',
+  'rpxWidgetUrlSecure' : 'https://rpxnow.com/js/lib/forge.marvel.com/widget.js'
+};
+</script>
+
+<div class='top-nav-dynamic-js-info' data-url='//marvel.com/topnavjs'></div>
+
+<!--[if IE 8]> <div class="lt-IE9 marvelWidget_Container notresponsive"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<div class="marvelWidget_Container notresponsive">
+<!--<![endif]-->
+  <div id="marvel_topnav_wrapper" class="not_inner"> <!-- header -->
+    <div id="marvel_topnav" class="not_inner clearfix">
+      <h1><a href="//marvel.com/" class="icon-marvel-logo"></a></h1>
+      <div id="marvel_topnav_mobile">
+        <span id="icon-menu" class="icon-menu _topnavicon"></span>
+
+        <span class="icon-account _topnavicon "></span>
+
+      </div>
+      <div id="marvel_topnav_ul_wrapper">
+        <div id="marvel_prenav">
+          <div id="marvel_social">
+            <ul class="left_menu">
+              <li><a id="facebook_top" href="https://www.facebook.com/Marvel/" target="_blank"><span class="spriteSocial facebookSocial"></span></a></li>
+              <li><a id="twitter_top" href="https://twitter.com/Marvel" target="_blank"><span class="spriteSocial twitterSocial"></span></a></li>
+              <li><a id="youtube_top" href="https://www.youtube.com/channel/UCvC4D8onUfXzvjTOM-dBfEA" target="_blank"><span class="spriteSocial youtubeSocial"></span></a></li>
+            </ul>
+          </div>
+          <div class="right_menu">
+            <div class='right_menu'>
+              
+<div class='topnavRightMenu top-nav-module-container'
+     data-params='{ "selector": "topnavRightMenu", "url": "//marvel.com/secure/widget/widgets/rightmenu/topnavRightMenu?jsonp_request=1" }'>
+</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="marvel_horiz_rule" class="nav5"> </div>
+        <div>
+          <ul id="marvel_topnav_ul">
+            <li class="home"><a  href="//marvel.com/">Home</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/news?nav=1" class="">Latest News</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/comics" class="current">Comics</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/movies" class="">Movies</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/videos" class="">Videos</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/games" class="">Games</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/tv" class="">TV</a></li>
+                                <li class="top-nav-menu-item"><a href="//marvel.com/characters" class="">Characters</a></li>
+                                <li class="top-nav-menu-item"><a href="https://shop.marvel.com" class="">Shop</a></li>
+
+            <li class="sub_mobile">
+              <a href="/insider">
+                <span class="spriteInsiderLogo"></span>Join Now!
+              </a>
+            </li>
+
+
+            <li class="sub_mobile">
+              <a id="mastercard_top_mobile" href="http://marvel.com/creditcard?siteCode=MCLAMONB&cmpid=MCLAMONB&Dcom=MOLNAV" class="mobileLink">Marvel MasterCard <span class="regSymbol">&reg;</span></a></li>
+            <li class="sub_mobile">
+              <div  class="social_mobile">
+                <div>
+
+                  <!--<span>Follow us:</span>-->
+                  <div class="icon"><a id="facebook_top_mobile" href="https://www.facebook.com/Marvel/"><span class="spriteSocial facebookSocial"></span></a></div>
+                  <div class="icon"><a id="twitter_top_mobile" href="https://twitter.com/Marvel"><span class="spriteSocial twitterSocial"></span></a></div>
+                  <div class="icon"><a id="youtube_top_mobile" href="https://www.youtube.com/channel/UCvC4D8onUfXzvjTOM-dBfEA"><span class="spriteSocial youtubeSocial"></span></a></div>
+                </div>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+      <ul class="right">
+          <div class="dropdown signin">
+            
+<div class='topnavUserWidget top-nav-module-container'
+     data-params='{ "selector": "topnavUserWidget", "url": "//marvel.com/secure/topnavuserinsiderwidget?home_url=http%3A%2F%2Fmarvel.com%2Fcomics&exclude_avatar=0&jsonp_request=1" }'>
+</div>
+          </div>
+      </ul>
+      </div>
+    </div>
+
+  
+                      
+                    
+                    <div id="marvel_subnav_wrapper">
+                      <div id="marvel_subnav">
+                        <span id="marvel_subnav_li"><a>Comics</a></span>
+                        <div id="marvel_subnav_div">
+                          <ul id="marvel_subnav_ul">
+                            <li><a href="/comics">Comics</a> <span>&nbsp;</span></li>
+                            <li class="dropdown-container">
+                              <a >Browse</a>
+                                <div class="dropdown">
+                                    <a
+                                    	href="//marvel.com/comics/series"
+                                    	class="current"
+                                    >Series</a>
+                                    <a
+                                    	href="//marvel.com/comics/characters"
+                                    	
+                                    >Characters</a>
+                                    <a
+                                    	href="//marvel.com/comics/creators"
+                                    	
+                                    >Creators</a>
+                                    <a
+                                    	href="//marvel.com/comics/events_crossovers"
+                                    	
+                                    >Events &amp; Crossovers</a>
+                                </div>
+                            </li>
+                    
+                            
+                    
+                              <li>
+                    
+                                        <a href="//marvel.com/comics/discover/" > Discover</a>
+                            </li>
+                              <li>
+                    
+                                        <a href="//marvel.com/comics/calendar" > On-Sale</a>
+                            </li>
+                              <li>
+                    
+                                        <a href="//marvel.com/comics/unlimited" > Marvel Unlimited</a>
+                            </li>
+                              <li>
+                    
+                                        <a href="http://comicstore.marvel.com/" > Shop Digital Comics</a>
+                            </li>
+                              <li>
+                    
+                                        <a href="http://subscriptions.marvel.com" > Print Subs</a>
+                            </li>
+                              <li>
+                    
+                                        <a href="//marvel.com/comics/events/327/star_wars" > Star Wars</a>
+                            </li>
+                              <li>
+                    
+                                        <a href="//marvel.com/news/comics" > Comic News</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+  </div> <!-- header -->
+    <div class="clearfix"></div>
+</div>
+</header>
+
+                      
+                        <div id="mainRotator" class="JCS2 JCS2-sectionFront sldSkin_Bold sldSkin_Bold-FrontSect pwrSldr_UIWrap">
+                        	<div class="slider-container">
+                        		<!-- jsSlide -->
+                        		<div class="jsSlide_Mask">
+                        			<a class="panel-lnk-screen js-overlay-link" href="javascript:void(0);">open slide</a>
+                        
+                        			<div class="sld_realMask pwrSldr_container">
+                        				<div class="pwrSldr_wrapper jsSlide_slides">
+                        					<div id="pwrSldr_tpl_promoRotator">
+                        						<ul>
+                        							<li class="pwrSldr_each">
+                        		<img src="https://i.annihil.us/u/prod/marvel/i/mg/3/d0/583de825c7163.jpg" alt="Moon Girl &amp; Devil Dinosaur: Head of the Class" />
+                        
+                        
+                        	<!--Moon Girl &amp; Devil Dinosaur: Head of the Class
+                        	Lunella Lafayette stacks up against Marvel's biggest brains
+                        	
+                        		https://news.marvel.com/comics/55645/moon-girl-devil-dinosaur-head-class/
+                        		Top minds!
+                        	-->
+                        </li>
+                        
+                        <li class="pwrSldr_each">
+                        		<img src="https://i.annihil.us/u/prod/marvel/i/mg/9/60/583dee1c57d21.jpg" alt="Prowler: Shadows of Morality" />
+                        
+                        
+                        	<!--Prowler: Shadows of Morality
+                        	Gain some insight into the evolving perspective of The Prowler
+                        	
+                        		https://news.marvel.com/comics/55651/prowler-shadows-morality/
+                        		Tough choices!
+                        	-->
+                        </li>
+                        
+                        <li class="pwrSldr_each">
+                        		<img src="https://i.annihil.us/u/prod/marvel/i/mg/4/a0/583df7846b983.jpg" alt="Star Wars Spotlight" />
+                        
+                        
+                        	<!--Star Wars Spotlight
+                        	Enjoy a classic Star Wars story with Marvel Unlimited
+                        	
+                        		https://news.marvel.com/comics/55657/star-wars-spotlight-showdown-smugglers-moon/
+                        		Read more!
+                        	-->
+                        </li>
+                        
+                        <li class="pwrSldr_each">
+                        		<img src="https://i.annihil.us/u/prod/marvel/i/mg/2/70/583dfdfe5b3ab.jpg" alt="The Spells of Doctor Strange" />
+                        
+                        
+                        	<!--The Spells of Doctor Strange
+                        	Dive into the world of Doctor Strange with this titanic tale
+                        	
+                        		https://news.marvel.com/comics/55665/spells-doctor-strange-doctor/
+                        		By the Vishanti!
+                        	-->
+                        </li>
+                        
+                        <li class="pwrSldr_each">
+                        		<img src="https://i.annihil.us/u/prod/marvel/i/mg/6/00/583ca4a4912d2.jpg" alt="ResurrXion Files: X-Men Blue" />
+                        
+                        
+                        	<!--ResurrXion Files: X-Men Blue
+                        	Cullen Bunn and Jorge Molina mix the original X-Men with Magneto
+                        	
+                        		https://news.marvel.com/comics/55559/resurrxion-files-x-men-blue/
+                        		Learn more!
+                        	-->
+                        </li>
+                        
+                        
+                        						</ul>
+                        					</div>
+                        
+                        				</div>
+                        			</div><!-- /sld_realMask -->
+                        
+                        			<div class="slider-frame">
+                        				<div class="sld_Decor_Left"></div>
+                        				<button id="btnRotator" class="btn btn-black btn-white-border js-overlay-btn" type="button"><span>Video Btn Text</span></button>
+                        				<!--  Content piece-->
+                        				<div class="sld_Txt_Wrap">
+                        					<div class="sld_inner_right_border">
+                        						<div class="jsSlide_pagination jsSlide_pagination-BODY"><!-- paging automatically inserted here--></div>
+                        					</div>
+                        
+                        					<div class="sld_Txt_Content">
+                        						<!--white box template DO NOT place static content here, it will be destroyed-->
+                        					</div>
+                        
+                        					<div class="sld_Decor-Right" data-sld-trigger="next" >
+                        						<div class="sld_Decors_Wrap">
+                        							<div class="sld_MaskStop"></div>
+                        							<div class="sld_Next_Title">
+                        								<p>marvel placeholder text</p><!--next title goes here. This is dynamically generated-->
+                        							</div>
+                        						</div>
+                        						<div class="force_HOVER"></div>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>
+                        	</div>
+                        	<div class="jsSlide_pagination jsSlide_pagination-FOOT"><!-- paging automatically inserted here--></div>
+                        </div><!--mainRotator-->
+                        
+                        <script>
+                        (function(DATA){
+                            sld_INSTANCER.instantiate($('#pwrSldr_tpl_promoRotator'),{
+                                data : DATA,
+                                template : 'promoRotator',
+                                pagination: 'none'
+                            });
+                        })([{"id":"10172","title":"Moon Girl & Devil Dinosaur: Head of the Class","description":"Lunella Lafayette stacks up against Marvel's biggest brains","label":"","urlText":"","panelTemplate":"1","rotatorType":"5","created":"2016-11-29 15:40:57","modified":"2016-11-29 15:44:25","img_variant":null,"wordPressTag":"Moon Girl & Devil Dinosaur: Head of the Class","releaseDate":"2016-11-29 15:43:00","publicationStartDate":"2016-11-29 15:43:00","publicationEndDate":"2099-12-31 23:59:00","publicationWeight":"50","businessUnit":"Comics","businessFamily":null,"tags":null,"content":null,"links":{"id":"17814","url":"https:\/\/news.marvel.com\/comics\/55645\/moon-girl-devil-dinosaur-head-class\/","text":"Top minds!","order":"0","created":"2016-11-29 15:43:56","modified":"2016-11-29 15:43:56"}},{"id":"10173","title":"Prowler: Shadows of Morality","description":"Gain some insight into the evolving perspective of The Prowler","label":"","urlText":"","panelTemplate":"1","rotatorType":"5","created":"2016-11-29 16:06:16","modified":"2016-11-29 16:09:59","img_variant":null,"wordPressTag":"Prowler: Shadows of Morality","releaseDate":"2016-11-29 16:09:00","publicationStartDate":"2016-11-29 16:09:00","publicationEndDate":"2099-12-31 23:59:00","publicationWeight":"50","businessUnit":"Comics","businessFamily":null,"tags":null,"content":null,"links":{"id":"17815","url":"https:\/\/news.marvel.com\/comics\/55651\/prowler-shadows-morality\/","text":"Tough choices!","order":"0","created":"2016-11-29 16:09:23","modified":"2016-11-29 16:09:23"}},{"id":"9089","title":"Star Wars Spotlight","description":"Enjoy a classic Star Wars story with Marvel Unlimited","label":"","urlText":"","panelTemplate":"1","rotatorType":"5","created":"2016-01-12 11:40:43","modified":"2016-11-29 16:53:30","img_variant":null,"wordPressTag":"Star Wars Spotlight","releaseDate":"2016-01-12 11:42:00","publicationStartDate":"2016-01-12 11:42:00","publicationEndDate":"2099-12-31 23:59:00","publicationWeight":"50","businessUnit":"Comics","businessFamily":null,"tags":null,"content":null,"links":{"id":"17816","url":"https:\/\/news.marvel.com\/comics\/55657\/star-wars-spotlight-showdown-smugglers-moon\/","text":"Read more!","order":"0","created":"2016-11-29 16:52:03","modified":"2016-11-29 16:52:06"}},{"id":"10022","title":"The Spells of Doctor Strange","description":"Dive into the world of Doctor Strange with this titanic tale","label":"","urlText":"","panelTemplate":"1","rotatorType":"5","created":"2016-10-12 17:01:09","modified":"2016-11-29 17:16:19","img_variant":null,"wordPressTag":"The Spells of Doctor Strange","releaseDate":"2016-10-12 17:02:00","publicationStartDate":"2016-10-12 17:02:00","publicationEndDate":"2099-12-31 23:59:00","publicationWeight":"50","businessUnit":"Comics","businessFamily":null,"tags":null,"content":null,"links":{"id":"17817","url":"https:\/\/news.marvel.com\/comics\/55665\/spells-doctor-strange-doctor\/","text":"By the Vishanti!","order":"0","created":"2016-11-29 17:15:57","modified":"2016-11-29 17:16:00"}},{"id":"10171","title":"ResurrXion Files: X-Men Blue","description":"Cullen Bunn and Jorge Molina mix the original X-Men with Magneto","label":"","urlText":"","panelTemplate":"1","rotatorType":"5","created":"2016-11-28 16:41:08","modified":"2016-11-28 16:42:52","img_variant":null,"wordPressTag":"ResurrXion Files: X-Men Blue","releaseDate":"2016-11-28 16:42:00","publicationStartDate":"2016-11-28 16:42:00","publicationEndDate":"2099-12-31 23:59:00","publicationWeight":"50","businessUnit":"Comics","businessFamily":null,"tags":null,"content":null,"links":{"id":"17808","url":"https:\/\/news.marvel.com\/comics\/55559\/resurrxion-files-x-men-blue\/","text":"Learn more!","order":"0","created":"2016-11-28 16:42:26","modified":"2016-11-28 16:42:26"}}]);
+                        </script>
+                        
+                    
+                    <section class="module-group" id="modu-w-skin-ad">
+                    <!-- Lori test loading hiding salePromo, loading rest of modules  -->
+                          <section class="module JMMultiRow moduColor_Light no-stripes" id="onsale">
+                        
+                            <div class="grid-container">
+                        
+                                <h2 class="module-header">November 30: New Releases </h2>
+                                
+                                <div id="insiderBanner" class="active-light">
+                                	<div class="insider_image">
+                                		<img class="image-black" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider.png">
+                                		<img class="image-white" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider-white.png">
+                                	</div>
+                                	<div class="insider_copy">
+                                		<div class="copy_container">
+                                			<div class="insider_call">
+                                				<p class="redCopy">Earn 500 Points</p>
+                                				<p class="blackCopysm">For Making a Purchase at the Marvel Digital Comics Shop</p>
+                                				<p class="finepsm"><a href='/insider'>Join Now</a> to earn points and get cool stuff! Click through for terms and details.</p>
+                                			</div>
+                                		</div>
+                                	</div>
+                                </div>
+                                    <div class="ad-container float-right">
+                                        <div class="ad ad-300x250"><!--  Operative Tag starts here -->
+                        <script type='text/javascript'>
+                          function initGoogleTagAd( networkCode, size, sect, ct, targetDiv ) {
+                            googletag.defineSlot( networkCode, size, targetDiv )
+                              .addService(googletag.pubads())
+                              .setTargeting( "sect", sect )
+                              .setTargeting( "ct", ct )
+                              .setTargeting( "mtfInline", "true" );
+                            googletag.enableServices();
+                            googletag.display( targetDiv );
+                        
+                          }
+                        </script>
+                        <div class="advertisement">
+                          <div id='div-gpt-ad-comics-2063660990'>
+                          <script>
+                            initGoogleTagAd( '/10281695/Marvel.com/comics', [300,250], 'comics', '', 'div-gpt-ad-comics-2063660990' );
+                          </script>
+                          </div>
+                        </div>
+                        
+                        <script type="text/javascript">
+                        <!-- Ugly hack to remove width and height from custom skins iframe -->
+                        $(document).ready(function() {
+                          setTimeout(function(){
+                            var adIframe = $('#home-skin-ad .advertisement iframe');
+                                adIframe.hide().removeAttr('width').removeAttr('height');
+                              $('#skin-ad .advertisement iframe').hide().removeAttr('width').removeAttr('height');
+                            },300);
+                        });
+                        </script>
+                        
+                        
+                        
+                        
+                        </div>
+                                    </div>
+                        
+                                <div class="JCMultiRow  JCMultiRow-comic_issue" id="" data-filter-content="browse">
+                                	<div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/61593/ivx_2016   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/7/40/5835bf2c8d876/portrait_incredible.jpg" alt="Ivx #0 " title="Ivx #0 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/61593/ivx_2016   ">
+                        	                Ivx #0 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12371/charles_soule" >Soule</a>, <a href="//marvel.com/comics/creators/9598/kenneth_rocafort" >Rocafort</a></p>
+                            </div>
+                        
+                        </div>
+                        <div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/61498/great_lakes_avengers_2016_2   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/c/70/582cb9cc5b80d/portrait_incredible.jpg" alt="Great Lakes Avengers #2 " title="Great Lakes Avengers #2 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/61498/great_lakes_avengers_2016_2   ">
+                        	                Great Lakes Avengers #2 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12884/zac_gorman" >GORMAN</a>, <a href="//marvel.com/comics/creators/12885/will_robson" >ROBSON</a></p>
+                            </div>
+                        
+                        </div>
+                        <div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/61328/star_wars_annual_2016_2   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/5/80/582cbeefcd4dd/portrait_incredible.jpg" alt="Star Wars Annual #2 " title="Star Wars Annual #2 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/61328/star_wars_annual_2016_2   ">
+                        	                Star Wars Annual #2 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12714/kelly_thompson" >Thompson</a>, <a href="//marvel.com/comics/creators/12817/emilio_laiso" >Laiso</a></p>
+                            </div>
+                        
+                        </div>
+                        <div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/61036/new_avengers_2015_18   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/d/90/582c951505382/portrait_incredible.jpg" alt="New Avengers #18 " title="New Avengers #18 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/61036/new_avengers_2015_18   ">
+                        	                New Avengers #18 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12174/al_ewing" >Ewing</a>, <a href="//marvel.com/comics/creators/412/carlo_barberi" >Barberi</a></p>
+                            </div>
+                        
+                        </div>
+                        <div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/58993/deadpool_back_in_black_2016_4   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/40/582cb91d813b3/portrait_incredible.jpg" alt="Deadpool: Back in Black #4 " title="Deadpool: Back in Black #4 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/58993/deadpool_back_in_black_2016_4   ">
+                        	                Deadpool: Back in Black #4 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/10023/cullen_bunn" >Bunn</a>, <a href="//marvel.com/comics/creators/9394/salvador_espin" >Espin</a></p>
+                            </div>
+                        
+                        </div>
+                        <div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/57242/thunderbolts_2016_7   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/40/582cbfa010986/portrait_incredible.jpg" alt="Thunderbolts #7 " title="Thunderbolts #7 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/57242/thunderbolts_2016_7   ">
+                        	                Thunderbolts #7 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12390/jim_zub" >Zub</a>, <a href="//marvel.com/comics/creators/12936/sean_izaakse" >Izaakse</a></p>
+                            </div>
+                        
+                        </div>
+                        
+                                </div>
+                                <script>
+                                    (function(cl,id){
+                                        if(id && !cl.hasTouch || id && (cl.hasTouch && cl.large) ){
+                                            setTimeout(function(){
+                                               var m = new MakeAdPretty;
+                                               m.init(id);$('#'+id).data('makeAdPretty', m);
+                                               setTimeout(m.run,560);
+                                            },410);
+                                        }
+                                    })(Juggernaut.client, 'onsale');
+                                </script>
+                            </div>
+                        
+                        
+                            <div class="JCFilter-showmore ">
+                          <div class="btn-Merger">
+                            <div class="btn btn-small btn-red" data-browse-fetchMore="browse">
+                              <span>show more</span>
+                            </div>
+                            <div class="btn btn-black btn-small" data-browse-fetchmore-limiter="browse">
+                              <dl data-jcaccordion="anyvalue">
+                                <dt><span></span></dt>
+                                <dd>
+                                </dd>
+                              </dl>
+                            </div>
+                          </a>
+                        </div>
+                        
+                        <script>
+                        $(document).on('ready.ajax',function(){
+                            (function(filterTpl){
+                                var filterProperties = $.extend(true,{},filterTpl.properties,{
+                                  getContent: {
+                                      path: '/comics/show_more'
+                                  },
+                                  xtraAPIParams : {
+                                      
+                                      'options[formatType]' : 'issue','options[noVariants]' : 'true','options[dateDescriptor]' : 'thisWeek','options[orderBy][0]' : 'issues.onsale_date DESC','options[orderBy][1]' : 'issues.id DESC','options[module_img_variant]' : 'portraitIncredible','options[readNowText]' : 'Read Now','options[tpl]' : '../partials/comic_issue/comics_singlerow_item',
+                                      contentType: 'comic_issue',
+                                      method: 'fetchByReleaseDate'
+                                  },
+                              });
+                                filterProperties['offsetLimit'] = '0';
+                                filterProperties['count'] = '14';
+                              
+                                  filterProperties['offsetLimit'] = '2';
+                                  filterProperties['maxLimit'] = '75';
+                        
+                              
+                              Juggernaut.filter.registerDefaults('browse',filterProperties);
+                        
+                            })(FILTERINSTANCER.templates.showMoreOnly);
+                        });
+                        
+                        
+                        </script>
+                        </section>
+                      
+                          <div id="skin-ad">
+                        
+                        </div><div class="skin-blocker"></div>
+                        <!-- hide entire ad div to prevent the iFrames from taking over in size -->
+                        <div class="hidden"><!--  Operative Tag starts here -->
+                        <script type='text/javascript'>
+                          function initGoogleTagAd( networkCode, size, sect, ct, targetDiv ) {
+                            googletag.defineSlot( networkCode, size, targetDiv )
+                              .addService(googletag.pubads())
+                              .setTargeting( "sect", sect )
+                              .setTargeting( "ct", ct )
+                              .setTargeting( "mtfInline", "true" );
+                            googletag.enableServices();
+                            googletag.display( targetDiv );
+                        
+                          }
+                        </script>
+                        <div class="advertisement">
+                          <div id='div-gpt-ad-comics-1624727773'>
+                          <script>
+                            initGoogleTagAd( '/10281695/Marvel.com/comics', [1000,1000], 'comics', '', 'div-gpt-ad-comics-1624727773' );
+                          </script>
+                          </div>
+                        </div>
+                        
+                        <script type="text/javascript">
+                        <!-- Ugly hack to remove width and height from custom skins iframe -->
+                        $(document).ready(function() {
+                          setTimeout(function(){
+                            var adIframe = $('#home-skin-ad .advertisement iframe');
+                                adIframe.hide().removeAttr('width').removeAttr('height');
+                              $('#skin-ad .advertisement iframe').hide().removeAttr('width').removeAttr('height');
+                            },300);
+                        });
+                        </script>
+                        
+                        
+                        
+                        
+                        </div>
+                        <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            setTimeout(function () {
+                                var ad = document.getElementById('skin-ad');
+                                var backgroundImage = ad.style.backgroundImage;
+                                if (!!backgroundImage) {
+                                 var section = ad.previousElementSibling;
+                                 if( section.querySelector('._next') && section.querySelector('._prev') ) {
+                                     section.querySelector('._next').className += " skinAdArrowNext";
+                                     section.querySelector('._prev').className += " skinAdArrowPrev";
+                                 }
+                                }
+                            }, 1000);
+                        });
+                        
+                        </script>
+                        <style type="text/css">
+                            @media all and (min-width: 1050px) {
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-media .pwrSldr_btn._prev.skinAdArrowPrev,
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-video .pwrSldr_btn._prev.skinAdArrowPrev,
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-story .pwrSldr_btn._prev.skinAdArrowPrev,
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-gallery .pwrSldr_btn._prev.skinAdArrowPrev{
+                                    left:-5px;
+                                }
+                        
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-media .pwrSldr_btn._next.skinAdArrowNext,
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-story .pwrSldr_btn._next.skinAdArrowNext,
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-video .pwrSldr_btn._next.skinAdArrowNext,
+                                html.device_NOT_HASTOUCH.grid_940 .JCS1.JCS1-gallery .pwrSldr_btn._next.skinAdArrowNext{
+                                    right:-5px;
+                                }
+                            }
+                        </style>
+                        
+                    </section><!--  module -->	
+                    
+                    
+                    
+                        <section class="module moduColor_Light  ">
+                          <div class="grid-container">
+                        		<h2 class="module-header">Best Selling Digital Comics </h2>
+                        		<div id="insiderBanner" class="">
+                        			<div class="insider_image">
+                        				<img class="image-black" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider.png">
+                        				<img class="image-white" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider-white.png">
+                        			</div>
+                        			<div class="insider_copy">
+                        				<div class="copy_container">
+                        					<div class="insider_call">
+                        						<p class="redCopy"></p>
+                        						<p class="blackCopysm"></p>
+                        						<p class="finepsm"></p>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>		<div class="pwrSldr_container JCS1 JCS1-comic_issue JCS1-comic JCS1-bigPortrait" id="">
+                        		    <a href="#" class="pwrSldr_btn _prev"><span></span></a>
+                        		    <a href="#" class="pwrSldr_btn _next"><span></span></a>
+                        		    <div class="pwrSldr_wrapper">
+                        		        <div id="" class="pwrSldr">
+                        		            <ul><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/42411/civil_war_2007   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/70/57321e6abdf84/portrait_incredible.jpg" alt="Civil War (2007)" title="Civil War (2007)" /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/42411/civil_war_2007   ">
+                        	               Civil War (2007)
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/52988/star_wars_special_c-3po_2016_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/a/10/55ef46a56e6d6/portrait_incredible.jpg" alt="Star Wars Special: C-3PO #1 " title="Star Wars Special: C-3PO #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40732" target="_blank" data-digitalid="40732" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/52988/star_wars_special_c-3po_2016_1   ">
+                        	                Star Wars Special: C-3PO #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/460/tony_harris" >Harris</a>, <a href="//marvel.com/comics/creators/11930/tradd_moore" >Moore</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/4313/civil_war_2006_2   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/8/f0/511307fb3f7bc/portrait_incredible.jpg" alt="Civil War #2 " title="Civil War #2 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5487" target="_blank" data-digitalid="5487" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/4313/civil_war_2006_2   ">
+                        	                Civil War #2 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/4468/civil_war_2006_3   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/5/b0/5113089c2a2cd/portrait_incredible.jpg" alt="Civil War #3 " title="Civil War #3 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5488" target="_blank" data-digitalid="5488" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/4468/civil_war_2006_3   ">
+                        	                Civil War #3 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/collection/41577/deadpool_kills_the_marvel_universe_trade_paperback   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/50/4ffb252e62c27/portrait_incredible.jpg" alt="Deadpool Kills the Marvel Universe (Trade Paperback)" title="Deadpool Kills the Marvel Universe (Trade Paperback)" /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/collection/41577/deadpool_kills_the_marvel_universe_trade_paperback   ">
+                        	               Deadpool Kills the Marvel Universe (Trade Paperback)
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/57382/black_panther_2016_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/c/80/567065cfebad5/portrait_incredible.jpg" alt="Black Panther #1 " title="Black Panther #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41240" target="_blank" data-digitalid="41240" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/57382/black_panther_2016_1   ">
+                        	                Black Panther #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12803/ta-nehisi_coates" >Coates</a>, <a href="//marvel.com/comics/creators/575/brian_stelfreeze" >Stelfreeze</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/4786/civil_war_2006_4   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/80/5113086a9cc96/portrait_incredible.jpg" alt="Civil War #4 " title="Civil War #4 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5489" target="_blank" data-digitalid="5489" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/4786/civil_war_2006_4   ">
+                        	                Civil War #4 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/42798/civil_war_the_road_to_civil_war_2007   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_incredible.jpg" alt="Civil War: The Road to Civil War (2007)" title="Civil War: The Road to Civil War (2007)" /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/42798/civil_war_the_road_to_civil_war_2007   ">
+                        	               Civil War: The Road to Civil War (2007)
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/5075/civil_war_2006_5   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/f/e0/511309057cd07/portrait_incredible.jpg" alt="Civil War #5 " title="Civil War #5 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5490" target="_blank" data-digitalid="5490" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/5075/civil_war_2006_5   ">
+                        	                Civil War #5 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/5227/civil_war_2006_6   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/c/e0/51130945d1273/portrait_incredible.jpg" alt="Civil War #6 " title="Civil War #6 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5491" target="_blank" data-digitalid="5491" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/5227/civil_war_2006_6   ">
+                        	                Civil War #6 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/55766/star_wars_2015_17   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/b0/56e71aef71d19/portrait_incredible.jpg" alt="Star Wars #17 " title="Star Wars #17 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41460" target="_blank" data-digitalid="41460" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/55766/star_wars_2015_17   ">
+                        	                Star Wars #17 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/277/terry_dodson" >Dodson</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/41193/avengers_vs_x-men_2012_4   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/5/80/515f1a31c0d36/portrait_incredible.jpg" alt="Avengers Vs. X-Men #4 " title="Avengers Vs. X-Men #4 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/25735" target="_blank" data-digitalid="25735" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/41193/avengers_vs_x-men_2012_4   ">
+                        	                Avengers Vs. X-Men #4 
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/5793/civil_war_2006_7   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/03/511309c4e9172/portrait_incredible.jpg" alt="Civil War #7 " title="Civil War #7 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5492" target="_blank" data-digitalid="5492" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/5793/civil_war_2006_7   ">
+                        	                Civil War #7 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/42823/civil_war_amazing_spider-man_2007   " class="row-item-image-url"><!--
+                        		 --><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available/portrait_incredible.jpg" alt="Civil War: Amazing Spider-Man (2007)" title="Civil War: Amazing Spider-Man (2007)" /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/42823/civil_war_amazing_spider-man_2007   ">
+                        	               Civil War: Amazing Spider-Man (2007)
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/4216/civil_war_2006_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/e/f0/511307b2f1200/portrait_incredible.jpg" alt="Civil War #1 " title="Civil War #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/5486" target="_blank" data-digitalid="5486" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/4216/civil_war_2006_1   ">
+                        	                Civil War #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/88/mark_millar" >Millar</a>, <a href="//marvel.com/comics/creators/9484/steve_mcniven" >McNiven</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/41191/avengers_vs_x-men_2012_2   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/10/515f1a2cbc874/portrait_incredible.jpg" alt="Avengers Vs. X-Men #2 " title="Avengers Vs. X-Men #2 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/25733" target="_blank" data-digitalid="25733" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/41191/avengers_vs_x-men_2012_2   ">
+                        	                Avengers Vs. X-Men #2 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/11463/jason_aaron" >Aaron</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/41187/avengers_vs_x-men_2012_3   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/f/c0/4fa4390203731/portrait_incredible.jpg" alt="Avengers Vs. X-Men #3 " title="Avengers Vs. X-Men #3 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/25734" target="_blank" data-digitalid="25734" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/41187/avengers_vs_x-men_2012_3   ">
+                        	                Avengers Vs. X-Men #3 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/367/ed_brubaker" >Brubaker</a>, <a href="//marvel.com/comics/creators/214/john_romita_jr." >Romita</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/52562/spider-mandeadpool_2016_4   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/4/00/570e94165d86c/portrait_incredible.jpg" alt="Spider-Man/Deadpool #4 " title="Spider-Man/Deadpool #4 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41689" target="_blank" data-digitalid="41689" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/52562/spider-mandeadpool_2016_4   ">
+                        	                Spider-Man/Deadpool #4 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/2428/joe_kelly" >Kelly</a>, <a href="//marvel.com/comics/creators/649/ed_mcguinness" >McGuinness</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/55765/star_wars_2015_16   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/d/03/56bb606883752/portrait_incredible.jpg" alt="Star Wars #16 " title="Star Wars #16 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41193" target="_blank" data-digitalid="41193" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/55765/star_wars_2015_16   ">
+                        	                Star Wars #16 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/11463/jason_aaron" >Aaron</a>, <a href="//marvel.com/comics/creators/758/leinil_francis_yu" >Yu</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/57620/secret_wars_2015_9   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/70/569040820cfb9/portrait_incredible.jpg" alt="Secret Wars #9 " title="Secret Wars #9 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40728" target="_blank" data-digitalid="40728" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/57620/secret_wars_2015_9   ">
+                        	                Secret Wars #9 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/11743/jonathan_hickman" >Hickman</a></p>
+                            </div>
+                        
+                        </div>
+                        </li></ul>
+                        		        </div>
+                        		    </div>
+                        		</div>
+                        		<script>
+                        			var options = {};
+                        
+                        			PwrSldrInstantiator.run(options);
+                        		</script>
+                          </div>
+                        </section>
+                    
+                    
+                        <section class="module moduColor_Light  ">
+                          <div class="grid-container">
+                        		<h2 class="module-header">Free in Marvel Unlimited 
+                        
+                        <a href="//marvel.com/comics/list/623/get_started_with_free_issues" class="see-all" >See all</a>
+                        </h2>
+                        		<div id="insiderBanner" class="active-light">
+                        			<div class="insider_image">
+                        				<img class="image-black" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider.png">
+                        				<img class="image-white" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider-white.png">
+                        			</div>
+                        			<div class="insider_copy">
+                        				<div class="copy_container">
+                        					<div class="insider_call">
+                        						<p class="redCopy">Earn 3,000 Points</p>
+                        						<p class="blackCopysm">When You Subscribe to Marvel Unlimited</p>
+                        						<p class="finepsm"><a href='/insider'>Join Now</a> to earn points and get cool stuff! Click through for terms and details.</p>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>		<div class="pwrSldr_container JCS1 JCS1- JCS1-comic" id="">
+                        		    <a href="#" class="pwrSldr_btn _prev"><span></span></a>
+                        		    <a href="#" class="pwrSldr_btn _next"><span></span></a>
+                        		    <div class="pwrSldr_wrapper">
+                        		        <div id="" class="pwrSldr">
+                        		            <ul><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/62579/red_widow_first_strike_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/90/582616f07b2d7/portrait_incredible.jpg" alt="Red Widow: First Strike #1 " title="Red Widow: First Strike #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/44028" target="_blank" data-digitalid="44028" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/62579/red_widow_first_strike_2015_1   ">
+                        	                Red Widow: First Strike #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12948/margaret_stohl" >Stohl </a>, <a href="//marvel.com/comics/creators/12696/nico_leon" >Leon</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/62542/avengers_ft_hulk_nova_complete_saga_2016_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/50/5811114de7c6f/portrait_incredible.jpg" alt="AVENGERS FT. HULK &amp; NOVA – COMPLETE SAGA #1 " title="AVENGERS FT. HULK &amp; NOVA – COMPLETE SAGA #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/43953" target="_blank" data-digitalid="43953" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/62542/avengers_ft_hulk_nova_complete_saga_2016_1   ">
+                        	                AVENGERS FT. HULK & NOVA – COMPLETE SAGA #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/11347/brandon_montclare" >Montclare</a>, <a href="//marvel.com/comics/creators/12702/jl_giles" >Giles</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/59522/marvel_avengers_alliance_2016_4   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/e/a0/56bb60aa7bdc2/portrait_incredible.jpg" alt="MARVEL AVENGERS ALLIANCE #4 " title="MARVEL AVENGERS ALLIANCE #4 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41326" target="_blank" data-digitalid="41326" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/59522/marvel_avengers_alliance_2016_4   ">
+                        	                MARVEL AVENGERS ALLIANCE #4 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/6001/fabian_nicieza" >Nicieza</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/59521/marvel_avengers_alliance_2016_3   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/f/50/56bb5ec28dde1/portrait_incredible.jpg" alt="MARVEL AVENGERS ALLIANCE #3 " title="MARVEL AVENGERS ALLIANCE #3 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41325" target="_blank" data-digitalid="41325" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/59521/marvel_avengers_alliance_2016_3   ">
+                        	                MARVEL AVENGERS ALLIANCE #3 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/6001/fabian_nicieza" >Nicieza</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/59520/marvel_avengers_alliance_2016_2   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/b0/56ba674d4a85e/portrait_incredible.jpg" alt="MARVEL AVENGERS ALLIANCE #2 " title="MARVEL AVENGERS ALLIANCE #2 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41323" target="_blank" data-digitalid="41323" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/59520/marvel_avengers_alliance_2016_2   ">
+                        	                MARVEL AVENGERS ALLIANCE #2 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/6001/fabian_nicieza" >Nicieza</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/59519/marvel_avengers_alliance_2016_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/40/56ba6507c5ad6/portrait_incredible.jpg" alt="MARVEL AVENGERS ALLIANCE #1 " title="MARVEL AVENGERS ALLIANCE #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/41322" target="_blank" data-digitalid="41322" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/59519/marvel_avengers_alliance_2016_1   ">
+                        	                MARVEL AVENGERS ALLIANCE #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/6001/fabian_nicieza" >Nicieza</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/57846/marvels_jessica_jones_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/8/c0/5603ffa00e4f1/portrait_incredible.jpg" alt="Marvel's Jessica Jones #1 " title="Marvel's Jessica Jones #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40226" target="_blank" data-digitalid="40226" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/57846/marvels_jessica_jones_2015_1   ">
+                        	                Marvel's Jessica Jones #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/24/brian_michael_bendis" >Bendis</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/56317/the_avengers_in_gearing_up_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/60/55c918c40b3c7/portrait_incredible.jpg" alt="The Avengers in GEARING UP #1 " title="The Avengers in GEARING UP #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39111" target="_blank" data-digitalid="39111" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/56317/the_avengers_in_gearing_up_2015_1   ">
+                        	                The Avengers in GEARING UP #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/718/marc_sumerak" >Sumerak</a>, <a href="//marvel.com/comics/creators/8260/craig_rousseau" >Rousseau</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/53649/captain_america_featuring_road_force_in_endgame_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/10/55d343ca923ea/portrait_incredible.jpg" alt="Captain America featuring Road Force in ENDGAME  #1 " title="Captain America featuring Road Force in ENDGAME  #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39889" target="_blank" data-digitalid="39889" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/53649/captain_america_featuring_road_force_in_endgame_2015_1   ">
+                        	                Captain America featuring Road Force in ENDGAME  #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/7913/william_harms" >HARMS</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/56346/marvel_future_fight_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/5/e0/558b1f30d6b03/portrait_incredible.jpg" alt="MARVEL FUTURE FIGHT   #1 " title="MARVEL FUTURE FIGHT   #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39389" target="_blank" data-digitalid="39389" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/56346/marvel_future_fight_2015_1   ">
+                        	                MARVEL FUTURE FIGHT   #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/121/peter_david" >David</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/56324/iron_man_in_remote_possibilities_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/7/d0/556f6ae689c97/portrait_incredible.jpg" alt="IRON MAN in REMOTE POSSIBILITIES  #1 " title="IRON MAN in REMOTE POSSIBILITIES  #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39117" target="_blank" data-digitalid="39117" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/56324/iron_man_in_remote_possibilities_2015_1   ">
+                        	                IRON MAN in REMOTE POSSIBILITIES  #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12712/donny_cates" >Cates</a>, <a href="//marvel.com/comics/creators/12749/rhoald_marcellius" >Marcellius</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/50916/rise_of_incarnates_2014_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/30/53b2bf05c198d/portrait_incredible.jpg" alt="Rise of Incarnates #1 " title="Rise of Incarnates #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/34492" target="_blank" data-digitalid="34492" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/50916/rise_of_incarnates_2014_1   ">
+                        	                Rise of Incarnates #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a>, <a href="//marvel.com/comics/creators/3721/hoang_nguyen" >Nguyen</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/50917/rise_of_incarnates_2014_2   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/8/60/53b2c0df3013e/portrait_incredible.jpg" alt="Rise of Incarnates #2 " title="Rise of Incarnates #2 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/34493" target="_blank" data-digitalid="34493" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/50917/rise_of_incarnates_2014_2   ">
+                        	                Rise of Incarnates #2 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a>, <a href="//marvel.com/comics/creators/3721/hoang_nguyen" >Nguyen</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51028/rise_of_incarnates_2014_3   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/1/d0/569e673763f94/portrait_incredible.jpg" alt="Rise of Incarnates #3 " title="Rise of Incarnates #3 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/35239" target="_blank" data-digitalid="35239" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51028/rise_of_incarnates_2014_3   ">
+                        	                Rise of Incarnates #3 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a>, <a href="//marvel.com/comics/creators/3721/hoang_nguyen" >Nguyen</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51031/rise_of_incarnates_2014_4   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/c/80/569e67acaa6c2/portrait_incredible.jpg" alt="Rise of Incarnates #4 " title="Rise of Incarnates #4 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/35240" target="_blank" data-digitalid="35240" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51031/rise_of_incarnates_2014_4   ">
+                        	                Rise of Incarnates #4 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a>, <a href="//marvel.com/comics/creators/3721/hoang_nguyen" >Nguyen</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51123/rise_of_incarnates_2014_5   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/1/e0/569e67829960e/portrait_incredible.jpg" alt="Rise of Incarnates #5 " title="Rise of Incarnates #5 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/35677" target="_blank" data-digitalid="35677" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51123/rise_of_incarnates_2014_5   ">
+                        	                Rise of Incarnates #5 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a>, <a href="//marvel.com/comics/creators/12414/takuji_kawano" >Kawano</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51594/rise_of_incarnates_2014_6   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/b/30/569e67598dfff/portrait_incredible.jpg" alt="Rise of Incarnates #6 " title="Rise of Incarnates #6 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/35915" target="_blank" data-digitalid="35915" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51594/rise_of_incarnates_2014_6   ">
+                        	                Rise of Incarnates #6 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a>, <a href="//marvel.com/comics/creators/3721/hoang_nguyen" >Nguyen</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51595/rise_of_incarnates_2014_7   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/30/549303ea49dc0/portrait_incredible.jpg" alt="Rise of Incarnates #7 " title="Rise of Incarnates #7 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/36413" target="_blank" data-digitalid="36413" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51595/rise_of_incarnates_2014_7   ">
+                        	                Rise of Incarnates #7 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a>, <a href="//marvel.com/comics/creators/12414/takuji_kawano" >Kawano</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51596/rise_of_incarnates_2014_8   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/50/54db88fe070c0/portrait_incredible.jpg" alt="Rise of Incarnates #8 " title="Rise of Incarnates #8 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/36956" target="_blank" data-digitalid="36956" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51596/rise_of_incarnates_2014_8   ">
+                        	                Rise of Incarnates #8 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a>, <a href="//marvel.com/comics/creators/3721/hoang_nguyen" >Nguyen</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51597/rise_of_incarnates_2014_9   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/1/80/5527e56978f60/portrait_incredible.jpg" alt="Rise of Incarnates #9 " title="Rise of Incarnates #9 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/38207" target="_blank" data-digitalid="38207" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51597/rise_of_incarnates_2014_9   ">
+                        	                Rise of Incarnates #9 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51598/rise_of_incarnates_2014_10   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/90/55774a2de4903/portrait_incredible.jpg" alt="Rise of Incarnates #10 " title="Rise of Incarnates #10 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39378" target="_blank" data-digitalid="39378" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51598/rise_of_incarnates_2014_10   ">
+                        	                Rise of Incarnates #10 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51599/rise_of_incarnates_2014_11   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/c/40/5589791739983/portrait_incredible.jpg" alt="Rise of Incarnates #11 " title="Rise of Incarnates #11 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39417" target="_blank" data-digitalid="39417" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51599/rise_of_incarnates_2014_11   ">
+                        	                Rise of Incarnates #11 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51600/rise_of_incarnates_2014_12   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/c0/55b68473bde08/portrait_incredible.jpg" alt="Rise of Incarnates #12 " title="Rise of Incarnates #12 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39784" target="_blank" data-digitalid="39784" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51600/rise_of_incarnates_2014_12   ">
+                        	                Rise of Incarnates #12 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51601/rise_of_incarnates_2014_13   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/b0/55ddd31458645/portrait_incredible.jpg" alt="Rise of Incarnates #13 " title="Rise of Incarnates #13 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39999" target="_blank" data-digitalid="39999" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51601/rise_of_incarnates_2014_13   ">
+                        	                Rise of Incarnates #13 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51602/rise_of_incarnates_2014_14   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/c0/560557c6cf625/portrait_incredible.jpg" alt="Rise of Incarnates #14 " title="Rise of Incarnates #14 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40266" target="_blank" data-digitalid="40266" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51602/rise_of_incarnates_2014_14   ">
+                        	                Rise of Incarnates #14 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/51603/rise_of_incarnates_2014_15   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/e0/562f965f5250d/portrait_incredible.jpg" alt="Rise of Incarnates #15 " title="Rise of Incarnates #15 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40531" target="_blank" data-digitalid="40531" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/51603/rise_of_incarnates_2014_15   ">
+                        	                Rise of Incarnates #15 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/55098/rise_of_incarnates_2014_16   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/7/90/564f84c8dd668/portrait_incredible.jpg" alt="Rise of Incarnates #16 " title="Rise of Incarnates #16 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40745" target="_blank" data-digitalid="40745" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/55098/rise_of_incarnates_2014_16   ">
+                        	                Rise of Incarnates #16 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/59068/rise_of_incarnates_2014_17   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/c/00/567acaa09a2e6/portrait_incredible.jpg" alt="Rise of Incarnates #17 " title="Rise of Incarnates #17 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/40958" target="_blank" data-digitalid="40958" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/59068/rise_of_incarnates_2014_17   ">
+                        	                Rise of Incarnates #17 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/12412/yoshihiro_nakagawa" >Nakagawa</a>, <a href="//marvel.com/comics/creators/12402/marshall_uzzle" >Uzzle</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/56319/avengers_presented_by_western_union_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/7/80/5579e3be7c848/portrait_incredible.jpg" alt="Avengers Presented By Western Union #1 " title="Avengers Presented By Western Union #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39284" target="_blank" data-digitalid="39284" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/56319/avengers_presented_by_western_union_2015_1   ">
+                        	                Avengers Presented By Western Union #1 
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/52985/free_comic_book_day_2015_avengers_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/d/00/5649f7e09cccc/portrait_incredible.jpg" alt="Free Comic Book Day 2015 (Avengers) #1 " title="Free Comic Book Day 2015 (Avengers) #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/38808" target="_blank" data-digitalid="38808" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/52985/free_comic_book_day_2015_avengers_2015_1   ">
+                        	                Free Comic Book Day 2015 (Avengers) #1 
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/52986/free_comic_book_day_2015_secret_wars_2015   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/e/30/5649f78660027/portrait_incredible.jpg" alt="Free Comic Book Day 2015 (Secret Wars) #0 " title="Free Comic Book Day 2015 (Secret Wars) #0 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/38811" target="_blank" data-digitalid="38811" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/52986/free_comic_book_day_2015_secret_wars_2015   ">
+                        	                Free Comic Book Day 2015 (Secret Wars) #0 
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/49189/inhumanity_2013_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/8/c0/529e0a9aa033d/portrait_incredible.jpg" alt="Inhumanity #1 " title="Inhumanity #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/32440" target="_blank" data-digitalid="32440" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/49189/inhumanity_2013_1   ">
+                        	                Inhumanity #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/1132/matt_fraction" >Fraction</a>, <a href="//marvel.com/comics/creators/6170/olivier_coipel" >Coipel</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/54103/star_wars_darth_maul_2000_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/3/40/555ca64b67106/portrait_incredible.jpg" alt="Star Wars: Darth Maul #1 " title="Star Wars: Darth Maul #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39020" target="_blank" data-digitalid="39020" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/54103/star_wars_darth_maul_2000_1   ">
+                        	                Star Wars: Darth Maul #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/2673/ron_marz" >Marz</a>, <a href="//marvel.com/comics/creators/4952/drew_struzan" >Struzan</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/53719/deadpool_vs_thanos_2015_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/9/a0/55e447fcab924/portrait_incredible.jpg" alt="Deadpool Vs. Thanos #1 " title="Deadpool Vs. Thanos #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/39839" target="_blank" data-digitalid="39839" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/53719/deadpool_vs_thanos_2015_1   ">
+                        	                Deadpool Vs. Thanos #1 
+                                </a></h5>
+                                        <p class="meta-creators"><a href="//marvel.com/comics/creators/9550/tim_seeley" >Seeley</a>, <a href="//marvel.com/comics/creators/11930/tradd_moore" >Moore</a></p>
+                            </div>
+                        
+                        </div>
+                        </li><li><div class="row-item comic-item">
+                        
+                        	<div class="row-item-image">
+                        		<a href="   //marvel.com/comics/issue/30473/new_avengers_luke_cage_2010_1   " class="row-item-image-url"><!--
+                        		 --> <i class="badge badge-mu"></i><!--
+                        		  --><div class="row-item-image-border"></div><!--
+                        		  --><img src="https://i.annihil.us/u/prod/marvel/i/mg/6/d0/564f66c3f1d82/portrait_incredible.jpg" alt="New Avengers: Luke Cage #1 " title="New Avengers: Luke Cage #1 " /><!--
+                        	 --></a>
+                            </div>
+                        
+                            <div class="row-item-text">
+                        
+                                <i class="icon-search"></i>
+                                <a href="http://read.marvel.com/#/book/14259" target="_blank" data-digitalid="14259" data-mobileRedirect="" class="see-inside">
+                                                Read Now
+                                </a>
+                        
+                        
+                        
+                                <h5><a class="meta-title" href="   //marvel.com/comics/issue/30473/new_avengers_luke_cage_2010_1   ">
+                        	                New Avengers: Luke Cage #1 
+                                </a></h5>
+                            </div>
+                        
+                        </div>
+                        </li></ul>
+                        		        </div>
+                        		    </div>
+                        		</div>
+                        		<script>
+                        			var options = {};
+                        
+                        			PwrSldrInstantiator.run(options);
+                        		</script>
+                          </div>
+                        </section>
+                         
+                        <section class="module moduColor_Dark  ">
+                          <div class="grid-container">
+                        		<h2 class="module-header">Related Media </h2>
+                        		<div id="insiderBanner" class="">
+                        			<div class="insider_image">
+                        				<img class="image-black" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider.png">
+                        				<img class="image-white" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider-white.png">
+                        			</div>
+                        			<div class="insider_copy">
+                        				<div class="copy_container">
+                        					<div class="insider_call">
+                        						<p class="redCopy"></p>
+                        						<p class="blackCopysm"></p>
+                        						<p class="finepsm"></p>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>		<div class="pwrSldr_container JCS1 JCS1- JCS1-media" id="">
+                        		    <a href="#" class="pwrSldr_btn _prev"><span></span></a>
+                        		    <a href="#" class="pwrSldr_btn _next"><span></span></a>
+                        		    <div class="pwrSldr_wrapper">
+                        		        <div id="" class="pwrSldr">
+                        		            <ul><li><div class="row-item media-item">
+                            
+                            <div class="row-item-image">
+                                
+                                <a href="https://news.marvel.com/comics/55665/spells-doctor-strange-doctor/" class="row-item-image-url">
+                                	<div class="row-item-image-border"></div>
+                        	        <img src='https://news.marvel.com/wp-content/uploads/sites/28/2016/11/DRSTR_post_master-4.jpg' title="drstr_post_master" alt="drstr_post_master" />
+                        			<i class="media-item-type media-item-story"></i>
+                        	    </a>
+                          	</div>
+                            
+                          	<div class="row-item-text">
+                                    <span class="media-item-group">Doctor Strange</span>
+                        
+                                <h5><a href="https://news.marvel.com/comics/55665/spells-doctor-strange-doctor/">The Spells of Doctor Strange: The Doctor is Out</a></h5>
+                        	</div>
+                        </div></li><li><div class="row-item media-item">
+                            
+                            <div class="row-item-image">
+                                
+                                <a href="https://news.marvel.com/comics/55657/star-wars-spotlight-showdown-smugglers-moon/" class="row-item-image-url">
+                                	<div class="row-item-image-border"></div>
+                        	        <img src='https://news.marvel.com/wp-content/uploads/sites/28/2016/11/STARWARS_post_master-2.jpg' title="starwars_post_master" alt="starwars_post_master" />
+                        			<i class="media-item-type media-item-story"></i>
+                        	    </a>
+                          	</div>
+                            
+                          	<div class="row-item-text">
+                                    <span class="media-item-group">Star Wars</span>
+                        
+                                <h5><a href="https://news.marvel.com/comics/55657/star-wars-spotlight-showdown-smugglers-moon/">Star Wars Spotlight: Showdown on the Smugglers’ Moon</a></h5>
+                        	</div>
+                        </div></li><li><div class="row-item media-item">
+                            
+                            <div class="row-item-image">
+                                
+                                <a href="https://news.marvel.com/comics/55651/prowler-shadows-morality/" class="row-item-image-url">
+                                	<div class="row-item-image-border"></div>
+                        	        <img src='https://news.marvel.com/wp-content/uploads/sites/28/2016/11/PROWLER_post_master.jpg' title="prowler_post_master" alt="prowler_post_master" />
+                        			<i class="media-item-type media-item-story"></i>
+                        	    </a>
+                          	</div>
+                            
+                          	<div class="row-item-text">
+                                    <span class="media-item-group">Prowler</span>
+                        
+                                <h5><a href="https://news.marvel.com/comics/55651/prowler-shadows-morality/">Prowler: Shadows of Morality</a></h5>
+                        	</div>
+                        </div></li></ul>
+                        		        </div>
+                        		    </div>
+                        		</div>
+                        		<script>
+                        			var options = {};
+                        
+                        			PwrSldrInstantiator.run(options);
+                        		</script>
+                          </div>
+                        </section>
+                        <section class="module moduColor_Alt  ">
+                          <div class="grid-container">
+                        		<h2 class="module-header">Promoted Videos </h2>
+                        		<div id="insiderBanner" class="active-red">
+                        			<div class="insider_image">
+                        				<img class="image-black" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider.png">
+                        				<img class="image-white" src="https://i.annihil.us/u/prod/marvel/redeem/images/insider-white.png">
+                        			</div>
+                        			<div class="insider_copy">
+                        				<div class="copy_container">
+                        					<div class="insider_call">
+                        						<p class="redCopy">Earn 500 Points</p>
+                        						<p class="blackCopysm">When you Check Out the latest Marvel Original Videos</p>
+                        						<p class="finepsm"><a href='/insider'>Join Now</a> to earn points and get cool stuff! Click through for terms and details.</p>
+                        					</div>
+                        				</div>
+                        			</div>
+                        		</div>		<div class="pwrSldr_container JCS1 JCS1- JCS1-media" id="">
+                        		    <a href="#" class="pwrSldr_btn _prev"><span></span></a>
+                        		    <a href="#" class="pwrSldr_btn _next"><span></span></a>
+                        		    <div class="pwrSldr_wrapper">
+                        		        <div id="" class="pwrSldr">
+                        		            <ul><li><div class="row-item media-item">
+                            
+                            <div class="row-item-image">
+                        	    <a href="/videos/watch/6129" class="row-item-image-url">
+                        	    	<div class="row-item-image-border"></div>
+                                	<img src='https://i.annihil.us/u/prod/marvel/i/mg/3/a0/5834900e8af44/landscape_amazing.jpg' title="Marvel 101 - Silk" alt="Marvel 101 - Silk" />
+                                	<i class="media-item-type media-item-video"></i>
+                        	    </a>			
+                          	</div>
+                            
+                          	<div class="row-item-text">
+                                <span class="media-item-group">Marvel 101</span>
+                                	<span class="media-item-date">Nov 23, 2016</span>
+                        
+                            <h5><a class="meta-title" href="/videos/watch/6129">Silk</a></h5>
+                            <p class="media-item-meta">
+                              episode
+                            </p>
+                          </div>
+                        </div></li><li><div class="row-item media-item">
+                            
+                            <div class="row-item-image">
+                        	    <a href="/videos/watch/6127" class="row-item-image-url">
+                        	    	<div class="row-item-image-border"></div>
+                                	<img src='https://i.annihil.us/u/prod/marvel/i/mg/1/20/582f59262158f/landscape_amazing.jpg' title="Make It Marvel: Red Skull Beet Salad" alt="Make It Marvel: Red Skull Beet Salad" />
+                                	<i class="media-item-type media-item-video"></i>
+                        	    </a>			
+                          	</div>
+                            
+                          	<div class="row-item-text">
+                                <span class="media-item-group">make it marvel</span>
+                                	<span class="media-item-date">Nov 18, 2016</span>
+                        
+                            <h5><a class="meta-title" href="/videos/watch/6127">Make It Marvel: Red Skull Beet Salad</a></h5>
+                            <p class="media-item-meta">
+                              episode
+                            </p>
+                          </div>
+                        </div></li><li><div class="row-item media-item">
+                            
+                            <div class="row-item-image">
+                        	    <a href="/videos/watch/6125" class="row-item-image-url">
+                        	    	<div class="row-item-image-border"></div>
+                                	<img src='https://i.annihil.us/u/prod/marvel/i/mg/c/b0/582dfad0c984d/landscape_amazing.jpg' title="What is Civil War? - Marvel TL;DR" alt="What is Civil War? - Marvel TL;DR" />
+                                	<i class="media-item-type media-item-video"></i>
+                        	    </a>			
+                          	</div>
+                            
+                          	<div class="row-item-text">
+                                <span class="media-item-group">marvel tl;dr</span>
+                                	<span class="media-item-date">Nov 18, 2016</span>
+                        
+                            <h5><a class="meta-title" href="/videos/watch/6125">What is Civil War? - Marvel TL;DR</a></h5>
+                            <p class="media-item-meta">
+                              episode
+                            </p>
+                          </div>
+                        </div></li></ul>
+                        		        </div>
+                        		    </div>
+                        		</div>
+                        		<script>
+                        			var options = {};
+                        
+                        			PwrSldrInstantiator.run(options);
+                        		</script>
+                          </div>
+                        </section>
+                    
+  <!--[if IE 8]> <div class="marvelWidget_Container notresponsive lt-IE9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<div class="marvelWidget_Container notresponsive">
+<!--<![endif]-->
+    <div id="marvel_bottomnav_ad" class="banner-ad footer">
+    	<script type='text/javascript'>
+    $(function(){
+            var ad = new Juggernaut.OO.Views.GoogleAdTag();
+    
+            ad.init({
+                id: 'banner-ad-footer',
+                selector : '.banner-ad.footer .ad-container-smart',
+                config: {
+                    networkCode: '/10281695/Marvel.com/comics/banner-ad-footer',
+                                        responsiveMap: [[ [ 980, 90 ], [ 728, 90 ] ],[ [ 0, 0 ], [ 320, 50 ] ]],
+                                                                        reportToGA: true,
+                                    targetDiv: 'div-gpt-ad-comics/banner-ad-footer',
+                    targeting: {
+                        sect: 'comics/banner-ad-footer'
+                    },
+                    listensForResize: true //will switch ad out on rezize, for responsive
+                }
+            });
+            ad.load();
+        });
+    </script>
+    
+    
+    	<section class="ad-container-smart ad-box-banner"></section>
+    </div>
+    
+        <script type="text/javascript">
+        (function() {
+           function async_load(){
+        	 	files = new Array();
+        
+                    	for(i in files) {
+        					        s = document.createElement('script');
+        					        s.type = files[i].type;
+        					        s.async = files[i].async;
+        					        s.src = files[i].src;
+        					        var x = document.getElementsByTagName('script')[0];
+        					        x.parentNode.insertBefore(s, x);
+                		}
+        		}
+        					    if (window.attachEvent) {
+        					        window.attachEvent('onload', async_load);
+        					    } else {
+        					        window.addEventListener('load', async_load, false);
+        					    }
+        					})();
+        </script>
+        
+  <div id="marvel_footer_wrapper">
+
+         <div class="marvel_footer with-ad" id="marvel_footer">
+          <div id="marvel_bottomnav_ad" class="banner-ad footer-links">
+    	<script type='text/javascript'>
+    $(function(){
+            var ad = new Juggernaut.OO.Views.GoogleAdTag();
+    
+            ad.init({
+                id: 'box-ad-footer',
+                selector : '.banner-ad.footer-links .ad-container-smart',
+                config: {
+                    networkCode: '/10281695/Marvel.com/comics/box-ad-footer',
+                                        responsiveMap: [[ [ 940, 250 ], [ [ 300, 250 ] ] ]],
+                                                                        reportToGA: true,
+                                    targetDiv: 'div-gpt-ad-comics/box-ad-footer',
+                    targeting: {
+                        sect: 'comics/box-ad-footer'
+                    },
+                    listensForResize: true //will switch ad out on rezize, for responsive
+                }
+            });
+            ad.load();
+        });
+    </script>
+    
+    
+    	<section class="ad-container-smart ad-box-banner"></section>
+    </div>
+    
+      <div id="footer-links-container">
+        <div class="html_aside">
+          <h4>Comics</h4>
+          <ul>
+            <li><a class="footer-menu-item" href="http://marvel.com/comics/calendar/">Release Calendar</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/comics/unlimited/">Marvel Unlimited</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/redeem/">Redeem Digital Copy</a></li>
+            <li><a class="footer-menu-item" href="http://comicstore.marvel.com/">Shop Digital Comics</a></li>
+            <li><a class="footer-menu-item" href="http://subscriptions.marvel.com/">Print Subscriptions</a></li>
+            <li><a class="footer-menu-item" href="http://developer.marvel.com" class="vt-p">Developer Portal</a></li>
+          </ul>
+        </div>
+
+        <div class="html_aside characters">
+          <h4>Characters</h4>
+          <ul>
+            <li><a class="footer-menu-item" href="http://marvel.com/characters/bio/1009610/spider-man">Spider-Man</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/characters/bio/1009165/avengers">Avengers</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/characters/bio/1009368/iron_man">Iron Man</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/characters/14/dr_strange">Doctor Strange</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/characters/8/captain_america">Captain America</a></li>
+            <!-- <li><a href="http://marvel.com/universe/">Universe Wiki</a></li> -->
+          </ul>
+        </div>
+
+        <!-- <div class="html_aside downloads">
+          <h4>Downloads</h4>
+          <ul>
+            <li><a href="http://marvel.com/mobile/">Mobile Apps</a></li>
+            <li><a href="http://marvel.com/podcasts/">Podcasts</a></li>
+            <li><a href="http://marvel.com/wallpaper/">Wallpaper</a></li>
+          </ul>
+        </div> -->
+
+        <div class="html_aside kids">
+          <h4>Kids</h4>
+          <ul class="footer_section">
+            <li><a class="footer-menu-item" href="http://www.marvelkids.com/">Marvel Kids</a></li>
+            <li><a class="footer-menu-item" href="http://www.marvelkids.com/games ">Kids Games</a></li>
+            <li><a class="footer-menu-item" href="http://www.marvelkids.com/videos">Kids Videos</a></li>
+            <li><a class="footer-menu-item" href="http://www.marvelkids.com/activities ">Kids Activities</a></li>
+          </ul>
+        </div>
+
+      <div class="html_aside marvel">
+        <h4>Marvel</h4>
+        <ul>
+            <li><a class="register-link-footer footer-menu-item" href="https://marvel.com/register?referer=http%3A%2F%2Fmarvel.com%2Fcomics?placement=footer">Sign Up</a></li>
+            <li><a class="footer-menu-item"  id="mastercard_footer" href="http://marvel.com/creditcard?siteCode=MCLAMOFL&cmpid=MCLAMOFL&Dcom=MOLFOOTER">Marvel MasterCard <span class="regSymbol">&reg;</span></a></li>
+            <li><a class="footer-menu-item" class="footer-menu-item" id="insider_footer" href="http://marvel.com/insider">Marvel Insider</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/help/">Help/FAQs</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/preferences/email/">Email Preferences</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/corporate/about/">About Marvel</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/corporate/advertising/">Advertising</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.com/corporate/interns/">Internships</a></li>
+            <li><a class="footer-menu-item" href="http://marvel.disneycareers.com/en/default/">Careers</a></li>
+          </ul>
+        </div>
+
+      <div class="html_aside insider">
+        <h4>Insider</h4>
+        <ul>
+            <li><a class="footer-menu-item" href="https://marvel.com/insider">Join today</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/insider/home">Home</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/insider/activities">Activities</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/insider/rewards">Rewards</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/insider/profile">Member Profile</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/insider/faq">FAQs</a></li>
+            <li><a class="footer-menu-item" href="https://marvel.com/corporate/insider_terms">Marvel Insider Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+        <div class="marvel_footer_sub_wrapper">
+        <a href="/" class="icon-marvel-logo"></a>
+        <!-- <h4>Follow Marvel</h4> -->
+        <span>
+          <a href="http://www.facebook.com/Marvel" target="_blank"><div class="sprite-icon small social facebook"></div></a>
+          <a href="https://plus.google.com/+marvel/posts" target="_blank"><div class="sprite-icon small social google-plus"></div></a>
+          <a href="https://twitter.com/#!/marvel" target="_blank"><div class="sprite-icon small social twitter"></div></a>
+          <a href="http://marvelentertainment.tumblr.com/" target="_blank"><div class="sprite-icon small social tumblr"></div></a>
+          <a href="http://www.youtube.com/marvel" target="_blank"><div class="sprite-icon small social youtube"></div></a>
+          <a href="http://pinterest.com/marvelofficial/" target="_blank"><div class="sprite-icon small social pinterest"></div></a>
+        </span>
+
+        <!--
+        <h4>Get the Marvel Newsletter</h4>
+        <button class="btn btn-grey btn-small" href="https://marvel.com/my_account/emailpreferences"><span>Subscribe</span></button>
+        -->
+        <!--<li class="arrow"><a href="#top">&uarr; Top</a></li>-->
+    </div>
+    
+    <div class="marvel_footer_sub_partners_wrapper">
+              <a target="_blank" href="http://disneytermsofuse.com">Terms of Use</a>
+        <a target="_blank" href="https://disneyprivacycenter.com">Privacy Policy</a>
+        <a target="_blank" href="https://disneyprivacycenter.com/notice-to-california-residents">Your California Privacy Rights</a>
+        <a target="_blank" href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children’s Online Privacy Policy</a>
+        <a target="_blank" href="http://marvel.com/corporate/license_tou">License Agreement</a>
+        <a target="_blank" href="http://preferences-mgr.truste.com/?type=marvel&affiliateId=115" onclick="window.open('http://preferences-mgr.truste.com/?type=marvel&affiliateId=115','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Interest-Based Ads</a>
+        <a target="_blank" href="http://marvel.com/corporate/terms/">&copy; 2016 MARVEL</a>
+                </div>
+  </div>
+</div><!--/responsive toggler wrapper-->
+
+<div class="footer_googleadservices_wrapper">
+
+  <!-- Google Code for AVX Homepage Visit Remarketing List -->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 951293568;
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "ffffff";
+  var google_conversion_label = "4s7QCPDyoQMQgK3OxQM";
+  var google_conversion_value = 0;
+  /* ]]> */
+  </script>
+
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+  <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/951293568/?label=4s7QCPDyoQMQgK3OxQM&amp;guid=ON&amp;script=0"/>
+    </div>
+  </noscript>
+</div>
+
+        <script type="text/javascript" src="https://i.annihil.us/u/prod/marvel/s/js/b3b8420c4e7504add3b380848d455422.js"></script>
+        <script type="text/javascript" src="https://i.annihil.us/u/prod/marvel/s/js/b3146af9a2c24ff04e4bed7dba8c742a.js"></script>
+        
+
+
+<!--  FACEBOOOK -->
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=193166954153103";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+window.fbAsyncInit = function() {
+  _ga.trackFacebook();
+};
+</script>
+</body>
+</html>
